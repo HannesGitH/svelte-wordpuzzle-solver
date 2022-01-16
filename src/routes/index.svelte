@@ -1,7 +1,5 @@
 <script>
-import Camera from "$lib/Camera.svelte";
-
+	import Main from '$lib/main.svelte';
 </script>
-<h1>Welcome</h1>
 
-<Camera/>
+<h1>Welcome</h1>

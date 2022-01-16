@@ -1,3 +1,3 @@
 <script>
-    import Solver from "svelte-wordsearchpuzzle-solver-engine/index";
+    import * as Solver from "svelte-wordsearchpuzzle-solver-engine/index";
 </script>
