@@ -35,6 +35,7 @@
   },
   "type": "module",
   "dependencies": {
+    "core-js": "^3.20.3",
     "svelte-wordsearchpuzzle-solver-engine": "file:../svelte-wordsearchpuzzle-solver-engine/package"
   }
 }
