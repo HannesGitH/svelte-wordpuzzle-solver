@@ -1,10 +1,10 @@
-<script>
+<script type="ts">
     import Camera from "$lib/Camera.svelte";
     import FilePicker from "$lib/FilePicker.svelte";
     import * as Solver from "svelte-wordsearchpuzzle-solver-engine";
     import Button, {Label} from "@smui/button";
 
-    const onFile=(file)=>{
+    const onFile=(file:any)=>{
         Solver.image.set(file);
         retrieve = false;
     }

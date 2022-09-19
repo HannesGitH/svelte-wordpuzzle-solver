@@ -1,5 +1,5 @@
 <script lang="ts">
-    const onSelect = (event) => {
+    const onSelect = (event:any) => {
       // @ts-ignore
       const file = event.target.files[0];
       console.log(file);

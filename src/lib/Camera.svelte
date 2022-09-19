@@ -1,8 +1,8 @@
-<script>
+<script type="ts">
 	import CircularProgress from '@smui/circular-progress';
 	import Button, { Label } from '@smui/button';
 
-	let videoSource = null;
+	let videoSource:any = null;
 	let loading = false;
 	let gotVideo = false;
 	const getCam = async () => {
